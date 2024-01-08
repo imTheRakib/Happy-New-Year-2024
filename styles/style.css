@@ -92,3 +92,118 @@ img {
     font-size: 48px;
     font-weight: 700;
 }
+.wellcome-content {
+    margin-top: 100px;
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.wellcome-content::before {
+    position: absolute;
+    content: '';
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.well-row {
+    padding: 70px 50px 70px 150px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.well-col-text {
+    width: 700px;
+
+}
+
+.well-col-text h1 {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.well-col-text p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.well-col-text a {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.well-col-text a:hover {
+    color: purple;
+}
+.join {
+    margin-top: 100px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.join-text {
+    padding: 100px 385px 215px 385px;
+    text-align: center;
+}
+
+.join-text p {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.join-text .red {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.join-button {
+    margin-top: 50px;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    border: 0px;
+    cursor: pointer;
+    transition: all linear .4s;
+}
+
+.join-button:hover {
+    background: purple;
+}
