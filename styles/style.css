@@ -63,3 +63,32 @@ img {
   font-weight: 900;
   line-height: 95px;
 }
+.off-content {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.off-text h1 {
+    margin-bottom: 0px;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.off-text p {
+    margin-top: 30px;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.off-text h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
