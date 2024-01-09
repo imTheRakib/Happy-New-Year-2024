@@ -384,18 +384,17 @@ img {
 }
 
 .port-text h5 {
-  color: #F00;
-  font-family: 'Inter', sans-serif; 
+  color: #f00;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
 
   font-weight: 500;
-
 }
 
 .port-text h1 {
   margin-top: 20px;
   color: #070211;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 48px;
   font-weight: 900;
   text-transform: capitalize;
@@ -403,8 +402,8 @@ img {
 
 .port-text p {
   margin-top: 20px;
-  color: rgba(7, 2, 17, 0.60);
-  font-family: 'Inter', sans-serif;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -423,4 +422,192 @@ img {
 .port-main-two {
   display: flex;
   gap: 20px;
+}
+.suscriber {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.susciriber-content {
+  padding: 80px 270px;
+  text-align: center;
+  border: 0px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+
+.sus-text {
+  text-align: center;
+}
+.sus-text h1 {
+  margin-top: 25px;
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.sus-text p {
+  margin-top: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.sus-text-p {
+  margin: 0 auto;
+}
+
+form {
+  margin-right: 250px;
+  margin-top: 25px;
+  position: relative;
+}
+
+input {
+  padding: 25px 350px 25px 30px;
+  border: 0px;
+  border-radius: 50px;
+  background: #fff;
+}
+
+.sus-button {
+  position: absolute;
+  top: 0px;
+  left: 505px;
+  width: 210px;
+  height: 66px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: 0px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+
+.sus-button:hover {
+  background: purple;
+}
+.footer {
+  background: #070211;
+}
+
+.foot-content {
+  padding: 120px 100px;
+}
+
+.foot-text {
+  border-bottom: 1px solid #ffffff26;
+  display: flex;
+  align-items: center;
+  gap: 550px;
+}
+
+.foot-text-col {
+  width: 1000px;
+  margin-bottom: 50px;
+}
+
+.p-one {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.p-two {
+  margin-top: 5px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.number {
+  position: relative;
+  display: inline-flex;
+  gap: 50px;
+}
+
+.gmail {
+  position: relative;
+  display: inline-flex;
+  gap: 50px;
+}
+
+.number img {
+  position: absolute;
+  top: 10px;
+}
+
+.gmail img {
+  position: absolute;
+  top: 10px;
+}
+
+.number p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.gmail p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.foot-icon {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ffffff26;
+  text-align: center;
+}
+
+.foot-icon-img {
+  margin-bottom: 50px;
+}
+
+.foot-icon-img img {
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.foot-copyright {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.foot-copyright-col .p-one {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.foot-copyright-col .p-two {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+
+.foot-copyright-col .p-two:hover {
+  color: purple;
 }
